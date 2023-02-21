@@ -1,5 +1,5 @@
-#include "main.h"
 #include <unistd.h>
+
 /**
  * _putchar - character
  * Return: 1
