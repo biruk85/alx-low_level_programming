@@ -5,22 +5,20 @@
  * @n: integer params
  * Return: 0
  */
-
 void print_number(int n)
 {
-	unsigned int n1;
+unsigned int b1;
 
-	n1 = n;
+b1 = b;
 
-	if (n < 0)
-	{
-		_putchar('-');
-		n1 = -n;
-	}
-
-	if (n1 / 10 != 0)
-	{
-		print_number(n1 / 10);
-	}
-	_putchar((n1 % 10) + '0');
+if (b < 0)
+{
+_putchar('-');
+b1 = -b;
+}
+if (b1 / 10 != 0)
+{
+print_number(b1 / 10);
+}
+_putchar((b1 % 10) + '0');
 }
