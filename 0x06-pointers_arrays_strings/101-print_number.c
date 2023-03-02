@@ -5,7 +5,7 @@
  * @n: integer params
  * Return: 0
  */
-void print_number(int n)
+void print_number(int b)
 {
 unsigned int b1;
 
